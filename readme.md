@@ -42,3 +42,6 @@ Suitable base images:
   - [nixos/nix](https://hub.docker.com/r/nixos/nix): consists of many layers which slows down fetching during heroku build
   - [nix-docker-base](https://github.com/teamniteo/nix-docker-base): Images cotain one specific nixpkgs, nixpkgs need to pinned correctly.
   - [nixery.dev/nix/bash](https://nixery.dev/): minimal image containing just a shell and nix. Requires some small adjustments in order to make `nix build` work.
+
+Examples for docker + nix based heroku deployment:
+  - [heroku-nix-flask-example](https://github.com/DavHau/heroku-nix-flask-example)
